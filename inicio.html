@@ -4,8 +4,20 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Inicio</title>
+
+
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
+
+
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+
+
+	<link rel = "preconnect" href = "https://fonts.gstatic.com">
+	<link href = "https://fonts.googleapis.com/css2? family = Roboto: wght @ 100 & display = swap" rel = "hoja de estilo">
 
 
 	<link rel="stylesheet" href="css/estilos.css">
@@ -28,13 +40,12 @@
 <body>
 
 	<nav>
-
+		<a href="inicio.html"><img src="img/logo.jpg" id="logo"></a>
 		<table id="barra">
 			<tr>
-				<td><a href="inicio.html"><img src="img/logo.jpg" id="logo"></a></td>
-				<td><a href="inicio.html">inicio</a></td>
-				<td><a href="productos.html">productos</a></td>
-				<td><a href="envios.html">envios</a></td>
+				<td><a href="inicio.html">INICIO</a></td>
+				<td><a href="productos.html">PRODUCTOS</a></td>
+				<td><a href="envios.html">ENVIOS</a></td>
 			</tr>
 		</table>
 
@@ -88,32 +99,44 @@
     </a>
 </div>
 <!-- Custom Controls -->
-<a href="javascript:void(0);" id="prevBtn">Prev Slide</a>
-<a href="javascript:void(0);" id="nextBtn">Next Slide</a>
-
+<!--
+	<a href="javascript:void(0);" id="prevBtn">Prev Slide</a>
+	<a href="javascript:void(0);" id="nextBtn">Next Slide</a>
+-->
 
 
 	<div id="pagos">
-		<h2>Mètodos de pago</h2>
-		<span>Aceptamos:</span>
+		<h2>Metodos de pago</h2>
+		<!--<span>Aceptamos:</span>-->
 
-		<img src="img/efectivo.jpg" alt=""><p>Efectivo</p>
-		<img src="img/mercadoPago.png" alt=""><p>Mercado Pago</p>
-		<img src="img/transBancaria.jpg" alt="" width="100px" height="60px"> <p>Transferencia bancaria</p>
-
-
-		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem laborum cupiditate officia id corporis cumque. Aliquam odit ipsum reprehenderit, ipsa rem maiores voluptate ab suscipit doloremque placeat blanditiis deleniti, distinctio.
-		Sunt labore nesciunt sed enim cum corporis voluptatibus tenetur natus ratione sint vel quas veritatis beatae nisi aspernatur architecto magnam, autem illo dolore, corrupti in ea molestias.</p>
+		<ul>
+			<li><img src="img/efectivo.jpg" alt=""><p>Efectivo</p></li>
+			<li><img src="img/mercadoPago.png" alt="" class="tam"><p>Mercado Pago</p></li>
+			<li><img src="img/transBancaria.jpg" alt="" class="tam"> <p>Transferencia bancaria</p></li>
+		</ul>
+	
 	</div>
+
+
+
+
 	<div id="contacto">
-		<p>Ante cualquier consulta o para hacer tu pedido no dudes en contactarnos por cualquiera de estos medios</p>
+		<p>Para consultas o realizar tu pedido podes contactarnos en los siguientes medios</p>
+		<div class="iconos">
+			<a href="#"><i class="fab fa-whatsapp"></i></a>
+			<a href="#"><i class="fab fa-telegram-plane"></i></a>
+			<a href="#"><i class="far fa-envelope"></i></a>
+			<a href="#"><i class="fab fa-facebook"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+		</div>
 		
-		<i class="fab fa-whatsapp"></i>
-		<i class="fab fa-telegram-plane"></i>
-		<i class="far fa-envelope"></i>
-		<i class="fab fa-facebook"></i>
-		<i class="fab fa-instagram"></i>
 	</div>
+
+
+
+
+
+
 	<div id="quienes">
 		<h2>Sobre nosotros</h2>
 		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem laborum cupiditate officia id corporis cumque. Aliquam odit ipsum reprehenderit, ipsa rem maiores voluptate ab suscipit doloremque placeat blanditiis deleniti, distinctio.
@@ -122,39 +145,18 @@
 
 
 	<footer>
-		<!--
 
-			logo
-
-			menu
-			inicio
-			prodcutos
-			envios
-
-			contactanos
-			(telefono
-			 mail
-			 localidad)
-
-			 redes sociales
-			 face
-			 ig
-			 whp
-			 telgra
-
-		-->
-
-		<a href="inicio.html"><img src="img/logo.jpg" id="logo"></a>
+		<a href="inicio.html"><img src="img/logo.jpg" id="logoFoot"></a>
 
 
 
 		<table class="tablaPie">
 			<tr>		
-				<th>Menù</th>     <th>Contàctenos</th>     <th>Redes Sociales</th> <th>Atenciòn al cliente</th>
+				<th class="menu">Nuestro menu</th>     <th class="otro c">Contactenos</th>     <th class="otro r">Redes Sociales</th> <th class="otro a">Atencion al cliente</th>
 			</tr>
 			<tr>
 				<td><a href="inicio.html">Inicio</a></td>  <td><i class="fab fa-whatsapp"></i> 
-		<i class="fab fa-telegram-plane"></i> (011) 15-7364-5895</td> <td><i class="fab fa-facebook"></i> <i class="fab fa-instagram"></i></td> <td> Todos los dias de 9 a 20hs</td>
+				<i class="fab fa-telegram-plane"></i> (011) 15-7364-5895</td> <td><i class="fab fa-facebook"></i> <i class="fab fa-instagram"></i></td> <td> Todos los dias de 9 a 20hs</td>
 			</tr>	
 			<tr>
 				<td><a href="productos.html">Productos</a></td> <td><i class="far fa-envelope"></i> info.ryorijin@gmail.com</td><td></td><td>Envios los Martes, Jueves y Sabados</td>
