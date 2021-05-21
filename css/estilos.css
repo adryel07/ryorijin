@@ -175,6 +175,53 @@ td{
 }
 
 
+#solapas{
+	border:1px solid black;
+	margin: 100px;
+	max-width: auto;
+}
+
+#solapas div p.prod{
+	background-color: rgba(118, 129, 221, 1);
+	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.71);
+	-webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.71);
+	-moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.71);
+	margin: 20px 20%;
+	text-align: center;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /********************FOOTER**********************/
