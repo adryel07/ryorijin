@@ -15,7 +15,7 @@ nav{
 	padding-bottom: 12px; 
 }
 
-nav  table tr td a{
+nav table tr td a{
 	text-decoration: none;
 	color: blue;
 	font-size: 20px;
@@ -253,23 +253,12 @@ footer{
 	width: 70%;
 }
 
-.tablaPie tr th.menu{
-	padding-left: 70px;
+.tablaPie tr th{
 	padding-top: 5px;
+	text-align: center;
+
 }
 
-.tablaPie tr th.otro{
-	padding-top: 5px;
-	padding-left: 50px;
-}
-
-.tablaPie tr th.c{
-	padding-left: 70px;	
-}
-
-.tablaPie tr th.r{
-	padding-left: 60px;	
-}
 
 
 .tablaPie tr a{
