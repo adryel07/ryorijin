@@ -177,35 +177,17 @@ td{
 
 #solapas{
 	border:1px solid black;
-	margin: 100px;
+	margin: 10% 100px;
 	max-width: auto;
 }
 
-#solapas div p.prod {
+
+#solapas input.butProductos {
 	background-color: rgba(118, 129, 221, 1);
 	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.71);
 	-webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.71);
 	-moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.71);
-	margin: 20px 20%;
-	text-align: center;
-	font-size: 25px;
-	cursor: pointer;
-}
-
-
-
-div#solapas .ninja{
-	display: none;
-
-}
-
-
-.butProductos{
-	background-color: rgba(118, 129, 221, 1);
-	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.71);
-	-webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.71);
-	-moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.71);
-	margin: 20px 20%;
+	margin: 25px 25%;
 	text-align: center;
 	font-size: 25px;
 	cursor: pointer;
@@ -214,24 +196,59 @@ div#solapas .ninja{
 
 
 
+div#solapas .ninja{
+	display: none;
+}
 
 
+#solapas div#pescFrequi, 
+		div#pescCongelado, 
+		div#polloCongelado,
+		div#mariscos,
+		div#especiales,
+		div#picaCongeladas,
+		div#unGan,
+		div#salAdh,
+		div#mcCain{
+	margin: 0 9%;
+}
 
 
+#solapas div#pescFrequi img, 
+		div#pescCongelado img, 
+		div#polloCongelado img,
+		div#mariscos img,
+		div#especiales img,
+		div#picaCongeladas img,
+		div#unGan img,
+		div#mcCain img{
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+	
+}
 
 
+#solapas div#pescFrequi article, 
+		div#pescCongelado article,
+		div#polloCongelado article,
+		div#mariscos article,
+		div#especiales article,
+		div#picaCongeladas article,
+		div#unGan article,
+		div#salAdh article,
+		div#mcCain article{
+	float: left;
+	padding: 5px 5px;
+	text-align: center;
+}
 
 
-
-
-
-
-
-
-
-
-
-
+#solapas div#salAdh img{
+	width: 300px;
+	height: 600px;
+	object-fit: cover;
+}
 
 
 
@@ -247,6 +264,7 @@ div#solapas .ninja{
 footer{
 	height: 200px;
 	border-top: 3px solid rgba(208, 208, 205, 0.74); 
+	margin-top: 10%;
 }
 
 
@@ -255,7 +273,7 @@ footer{
 	height: 150px;
 	border: 3px solid rgba(208, 208, 205, 0.74);
 	border-radius: 40%;
-	margin: 2% 0 2% 6%;
+	margin: 2% 3% 2% 6%;
 }
 
 
