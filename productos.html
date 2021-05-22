@@ -36,8 +36,10 @@
 
 
 	<div id="solapas">	
-	 	<div>
-	 		<p class="pescFresco prod">[+]    Pescados Frescos</p>
+
+		<input type="button" value="[+]    Pescados Frescos" id="butPescadoFrescoOpen" class="butProductos" />
+		<input type="button" value="[-]    Pescados Frescos" id="butPescadoFrescoClose" class="butProductos ninja"  />
+	 	<div id="pescFrequi" class ="ninja">
 	 		<img src="img/atunRojoTrozos.jpeg" alt="" class="carrito"><p class="nombreProducto">Atun rojo en trozos (Congelado) $$$$</p>	
 	 		<img src="img/cornalitos.jpg" alt="" class="carrito"><p class="nombreProducto">Cornalitos $$$$</p>
 	 		<img src="img/fGatuzo.jpg" alt="" class="carrito"><p class="nombreProducto">Filet de Gatuso $$$$</p>
@@ -53,8 +55,11 @@
 			<img src="img/trilla.jpeg" alt="" class="carrito"><p class="nombreProducto">Trilla $$$$</p>
 
 	 	</div>
-	 	<div>
-	 		<p class="congPesc prod">[+]    Congelados (Pescado)</p>
+
+	 		<input type="button" value="[+]    Congelados (Pescado)" id="butPescadoCongeladoOpen" class="butProductos" />
+			<input type="button" value="[-]    Congelados (Pescado)" id="butPescadoCongeladoClose" class="butProductos ninja" />
+	 	<div id="pescCongelado" class ="ninja">
+
 	 		<img src="img/barritasMerluza.jpg" alt="" class="carrito"><p class="nombreProducto">Barritas de merluza $$$$</p>
 	 		<img src="img/empCamaronMerluzaSalmon.jpg" alt="" class="carrito"><p class="nombreProducto">Empanadas de Camaron, de Merluza y de salmon Rosado $$$$</p>
 	 		<img src="img/filetFinasHierbas.jpg" alt="" class="carrito"><p class="nombreProducto">Filet de Merluza a las Finas Hierbas $$$$</p>
@@ -64,8 +69,11 @@
 			<img src="img/langostinosRebozados.jpg" alt="" class="carrito"><p class="nombreProducto">Langostinos Rebozados $$$$</p>
 			<img src="img/rabasRebozadas.jpg" alt="" class="carrito"><p class="nombreProducto">Rabas Rebozadas $$$$</p>
 	 	</div>
-	 	<div>
-	 		<p class="congPollo prod">[+]    Congelados (Pollo)</p>
+
+
+	 		<input type="button" value="[+]    Congelados (Pescado)" id="butPolloCongeladoOpen" class="butProductos"/>
+			<input type="button" value="[-]    Congelados (Pescado)" id="butPolloCongeladoClose" class="butProductos ninja" />
+	 	<div id="polloCongelado" class="ninja">
 	 		<img src="img/nuggetsCrocantes.jpg" alt="" class="carrito"><p class="nombreProducto">Nuggets de Pollo Crocantes $$$$</p>
 			<img src="img/nuggetsTempura.jpg" alt="" class="carrito"><p class="nombreProducto">Nuggets de Pollo Estilo Tempura $$$$</p>
 	 		<img src="img/medalloCheddar.jpg" alt="" class="carrito"><p class="nombreProducto">Medallon de Pollo con Cheddar $$$$</p>
@@ -84,8 +92,10 @@
 			<img src="img/pochoclo.png" alt="" class="carrito"><p class="nombreProducto">Pochoclos de Pollo $$$$</p>
 			<img src="img/ricosaurios.jpeg" alt="" class="carrito"><p class="nombreProducto">Ricosaurios $$$$</p>
 	 	</div>
-	 	<div>
-	 		<p class="mariscos prod">[+]    Mariscos</p>
+
+	 		<input type="button" value="[+]    Mariscos" id="butMariscosOpen" class="butProductos"/>
+			<input type="button" value="[-]    Mariscos" id="butMariscosClose" class="butProductos ninja" />
+	 	<div id="mariscos" class="ninja">
 	 		<img src="img/almejasCaparazon.jpeg" alt="" class="carrito"><p class="nombreProducto">Almejas con Caparazon $$$$</p>
 	 		<img src="img/almejasPeladas.jpg" alt="" class="carrito"><p class="nombreProducto">Almejas Peladas $$$$</p>
 	 		<img src="img/berberecho.jpg" alt="" class="carrito"><p class="nombreProducto">Berberechos $$$$</p>
@@ -108,8 +118,10 @@
 			<img src="img/tentaculos.jpg" alt="" class="carrito"><p class="nombreProducto">Tentaculos de Calamar $$$$</p>
 			<img src="img/tintaCalamar.jpg" alt="" class="carrito"><p class="nombreProducto">Tinta de Calamar $$$$</p>
 	 	</div>
-	 	<div>
-	 		<p class="especiales prod">[+]    Especiales</p>
+
+	 		<input type="button" value="[+]    Especiales" id="butEspecialesOpen" class="butProductos"/>
+			<input type="button" value="[-]    Especiales" id="butEspecialesClose" class="butProductos ninja" />
+	 	<div id="especiales" class="ninja" >
 	 		<img src="img/bastonesMuzza.jpg" alt="" class="carrito"><p class="nombreProducto">Bastones de muzzarela $$$$</p>
 	 		<img src="img/chipa2.jpg" alt="" class="carrito"><p class="nombreProducto">Chipa $$$$</p>
 	 		<img src="img/croqArrozEspinaca.jpg" alt="" class="carrito"><p class="nombreProducto">Croquetas de Arroz y Espinaca $$$$</p>
@@ -117,18 +129,30 @@
 	 		<img src="img/frascoAnchoas.jpeg" alt="" class="carrito"><p class="nombreProducto">Frasco de Anchoas $$$$</p>
 	 		<img src="img/oliovita.jpg" alt="" class="carrito"><p class="nombreProducto">Aceite Oliovita $$$$</p>
 	 	</div>
-	 	<div>
-	 		<p class="picaCongeladas prod">[+]    Picadas Congeladas</p>
+
+	 		<input type="button" value="[+]    Picadas Congeladas" id="butPicaCongeladasOpen" class="butProductos"/>
+			<input type="button" value="[-]    Picadas Congeladas" id="butPicaCongeladasClose" class="butProductos ninja" />
+	 	<div id="picaCongeladas" class="ninja" >
+	 		<img src="img/ejPicadaCongelada.jpg" alt="" class="carrito"><p class="nombreProducto">Necesitaba imagenes para ver si funcaba el boton  $$$$</p>
+	 		<img src="img/ejPicadaCongelada2.jpg" alt="" class="carrito"><p class="nombreProducto">Igual cuentan como picadas congeladas xd$$$$</p>
+
 	 	</div>
-	 	<div>
-	 		<p class="unGan prod">[+]    Union Ganadera</p>
+
+
+	 	
+	 		<input type="button" value="[+]    Union Ganadera" id="butUnGanOpen" class="butProductos"/>
+			<input type="button" value="[-]    Union Ganadera" id="butUnGanClose" class="butProductos ninja" />
+	 	<div id="unGan" class="ninja" >
 	 		<img src="img/hambClasicas2.jpeg" alt="" class="carrito"><p class="nombreProducto">Hamburguesa Clasica $$$$</p>
 			<img src="img/hambGigantes.jpg" alt="" class="carrito"><p class="nombreProducto">Hamburguesas Gigantes $$$$</p>
 			<img src="img/salchichasCopetin.jpeg" alt="" class="carrito"><p class="nombreProducto">Salchichas Copetin $$$$</p>
 			<img src="img/pulpetas1.jpeg" alt="" class="carrito"><p class="nombreProducto">Pulpetas (Albondigas) $$$$</p>
 	 	</div>
-	 	<div>
-	 		<p class="salAdh prod">[+]    Salsas y Aderezos</p>
+
+
+	 		<input type="button" value="[+]    Salsas y Aderezos" id="butSalAdhOpen" class="butProductos"/>
+			<input type="button" value="[-]    Salsas y Aderezos" id="butSalAdhClose" class="butProductos ninja" />
+	 	<div id="salAdh" class="ninja" >
 	 		<img src="img/cheddar.jpeg" alt="" class="carrito"><p class="nombreProducto">Benidorm Cheddar $$$$</p>
 	 		<img src="img/kansasBarbacoa.jpg" alt="" class="carrito"><p class="nombreProducto">Kansas barbecue $$$$</p>
 			<img src="img/kansasHoney.jpg" alt="" class="carrito"><p class="nombreProducto">Kansas Honey Mustard $$$$</p>
@@ -138,8 +162,10 @@
 			<img src="img/roquefort.jpg" alt="" class="carrito"><p class="nombreProducto">Benidorm Roquefort $$$$</p>
 			<img src="img/parmesano.jpg" alt="" class="carrito"><p class="nombreProducto">Benidorm Parmesano $$$$</p>
 	 	</div>
-	 	<div>
-	 		<p class="mcCain prod">[+]    McCain</p>
+
+			<input type="button" value="[+]    McCain" id="butMcCainOpen" class="butProductos"/>
+			<input type="button" value="[-]    McCain" id="butMcCainClose" class="butProductos ninja" />
+	 	<div id="mcCainn" class="ninja" >
 	 		<img src="img/arosCebolla.jpg" alt="" class="carrito"><p class="nombreProducto">Aros de Cebolla $$$$</p>
 	 		<img src="img/crinkles.jpg" alt="" class="carrito"><p class="nombreProducto">Papas Crinkles $$$$</p>
 	 		<img src="img/noissettes.jpg" alt="" class="carrito"><p class="nombreProducto">Papas Noissetes $$$$</p>
@@ -149,15 +175,6 @@
 			<img src="img/trozadas.jpg" alt="" class="carrito"><p class="nombreProducto">Papas Trozadas Para Horno $$$$</p>
 	 	</div>
  	</div> 
-
-
-
-		<div id="productos">
-			
-			<input type="button" value="Comenzar" id="butIn" name="butIn"/>
-
-		</div>
-
 
 
 		<footer>

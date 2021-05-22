@@ -166,14 +166,14 @@ td{
 	margin: 25px 5%;
 }
 
-.carrito {
+/*.carrito {
 	display: none;
 	width: 400px;
 	height: 300px;
-	/*border-radius: 50%;*/
+	
 	margin: 20px;
 }
-
+*/
 
 #solapas{
 	border:1px solid black;
@@ -181,7 +181,7 @@ td{
 	max-width: auto;
 }
 
-#solapas div p.prod{
+#solapas div p.prod {
 	background-color: rgba(118, 129, 221, 1);
 	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.71);
 	-webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.71);
@@ -194,6 +194,23 @@ td{
 
 
 
+div#solapas .ninja{
+	display: none;
+
+}
+
+
+.butProductos{
+	background-color: rgba(118, 129, 221, 1);
+	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.71);
+	-webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.71);
+	-moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.71);
+	margin: 20px 20%;
+	text-align: center;
+	font-size: 25px;
+	cursor: pointer;
+	width: 50%;
+}
 
 
 
@@ -273,3 +290,5 @@ footer{
 .tablaPie tr i.fa-facebook, i.fa-instagram{
 	padding: 0 10px 0 0;
 }
+
+
