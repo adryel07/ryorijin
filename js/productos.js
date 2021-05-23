@@ -175,11 +175,11 @@ $("#butSalAdhClose").click(function(){
   $("#butMcCainOpen").click(function(){
 	 $("#butMcCainOpen").hide();
 	 $("#butMcCainClose").show();
-	 $("#mcCainn").show();
+	 $("#mcCain").show();
 });
 
 $("#butMcCainClose").click(function(){
 	$("#butMcCainOpen").show();
 	$("#butMcCainClose").hide();
-	$("#mcCainn").hide();
+	$("#mcCain").hide();
 });
