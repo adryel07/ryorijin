@@ -201,6 +201,19 @@ div#solapas .ninja{
 }
 
 
+#solapas div article{
+	cursor: pointer;
+}
+
+#solapas div article img{
+	transition: transform .3s;
+}
+
+#solapas div article img:hover{
+	transform: scale(1.2);
+}
+
+
 #solapas div#pescFrequi, 
 		div#pescCongelado, 
 		div#polloCongelado,
