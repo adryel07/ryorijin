@@ -183,3 +183,10 @@ $("#butMcCainClose").click(function(){
 	$("#butMcCainClose").hide();
 	$("#mcCain").hide();
 });
+
+
+//Prinicipio 
+
+$("#butPrincipio").click(function(){
+	document.documentElement.scrollTop = 0;
+});
