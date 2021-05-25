@@ -1,23 +1,4 @@
 
-
-
-
-
-/*
-// Call carousel manually
-$('#myCarouselCustom').carousel();
-
-// Go to the previous item
-$("#prevBtn").click(function(){
-    $("#myCarouselCustom").carousel("prev");
-});
-// Go to the previous item
-$("#nextBtn").click(function(){
-    $("#myCarouselCustom").carousel("next");
-});
-
-
-
 /*
 
 Opciones del carrusel
@@ -55,6 +36,28 @@ function mostrar(propio ,otro , parte){
 /*$("#butPescadoFrescoOpen").click(function(){
 	mostrar($("#butPescadoFrescoOpen"),$("butPescadoFrescoClose"),$("#pescFrequi"));
 });*/
+
+
+
+$(document).ready(function(){
+
+
+// Call carousel manually
+$('#myCarouselCustom').carousel();
+
+// Go to the previous item
+$(".left").click(function(){
+    $("#myCarouselCustom").carousel("prev");
+});
+// Go to the previous item
+$(".right").click(function(){
+    $("#myCarouselCustom").carousel("next");
+});
+
+
+
+
+
 
 //Pescado Fresco
 $("#butPescadoFrescoOpen").click(function(){
@@ -142,7 +145,6 @@ $("#butPicaCongeladasClose").click(function(){
 
 //Union Ganadera 
 
-unGan
 
 $("#butUnGanOpen").click(function(){
 	 $("#butUnGanOpen").hide();
@@ -189,4 +191,7 @@ $("#butMcCainClose").click(function(){
 
 $("#butPrincipio").click(function(){
 	document.documentElement.scrollTop = 0;
+});
+
+
 });
