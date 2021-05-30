@@ -157,6 +157,7 @@ div.carousel-caption p{
 	text-align: center;
 	font-size: 27px;
 	padding-top: 20px;
+	color: black;
 }
 
 #contacto div.iconos{
@@ -186,6 +187,29 @@ div.carousel-caption p{
 	font-size: 20px;
 	padding-top: 20px;
 	text-align: justify;
+	color: #000000;
+}
+
+
+
+/*******************ENVIOS********************/
+
+#contenedor{
+	border: 1px solid black;
+	margin: 15% 7%;
+
+}
+
+#contenedor p, h4{
+	color: #000000;
+	text-align: justify;
+	padding: 10px;
+	text-align: center;
+}
+
+#contenedor ul{
+	padding-left: 60%;
+
 }
 
 
@@ -364,6 +388,7 @@ div#solapas .ninja{
 		div#mcCain article h3,
 		div#salAdh article h3{
 	margin-bottom: 10px 5px;
+	color: #ffffff;
 }
 
 #solapas div#pescFrequi article span, p,
@@ -376,6 +401,7 @@ div#solapas .ninja{
 		div#mcCain article span, p,
 		div#salAdh article span, p{
 	margin: 5px 2px;
+	color: #ffffff;
 }
 
 #solapas div#pescFrequi article:hover,
